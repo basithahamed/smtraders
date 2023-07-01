@@ -55,19 +55,36 @@ img
 .supplyleft
 {
     background-color: #FBCA74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.supplyrightbg
+.suppliersprnt
 {
-    /* background: url("../4kcover.jpg"); */
-    /* height: 100%; */
+    padding: 40px;
+    margin-top: 100px;
+}
+.banner
+{
+    padding: 40px;
+}
+.callusbtn
+{
+    border: 2px solid;
+    border-radius: 12px;
+    font-size: 25px;
+    padding: 13px;
     
-    /* background-size: 100% 100%; */
-    /* background-position: center; */
-    
+    color: white;
+    background-color: #323232;
+}
+.callusbtn:hover{
+    color: #1A1A1A;
+    background-color:transparent;
 }
 
 @media only screen and (max-width: 700px) {
-.topleft{
+.topleft,.supplyleft{
     height: 300px;
 }
 .topright
@@ -77,6 +94,14 @@ img
 
 .dabba {
     width: 100%;
+}
+.suppliersprnt
+{
+    padding: 0px;
+}
+.banner
+{
+    padding: 0px;
 }
 }
 
