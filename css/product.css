@@ -1,6 +1,7 @@
 .product-common
 {
     width: 340px;
+    /* width: 100%; */
     margin: auto;
     
     padding: 20px;
@@ -27,7 +28,7 @@
 
 
 .dabba {
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding-top: 5px;
     
