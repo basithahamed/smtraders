@@ -61,7 +61,7 @@ img {
 /* for the logo */
 .logo {
     height: 100px;
-
+    
 }
 
 /* for the links */
@@ -150,7 +150,15 @@ img {
     .ham {
         padding-right: 15px;
     }
-
+    .top-left{
+        width: 100%;
+       display: flex;
+       align-items: center;
+    }
+    .logo{
+        margin: auto;
+    }
+    
 
     .lmobile {
         position: fixed;
