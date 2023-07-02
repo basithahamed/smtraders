@@ -10,7 +10,7 @@ img
     /* flex-direction: column; */
     /* text-align: center; */
     /* justify-content: center; */
-    background-color: rgb(50,50,50);
+    background-color: black;
     color: white;
 }
 .dabba {
@@ -83,6 +83,13 @@ img
     background-color:transparent;
 }
 
+#mtop div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.slider
+{
+    overflow: hidden;
+}
 @media only screen and (max-width: 700px) {
 .topleft,.supplyleft{
     height: 300px;
