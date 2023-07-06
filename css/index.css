@@ -90,13 +90,43 @@ img
 {
     overflow: hidden;
 }
+.img-margin-14{
+    margin-left: 14%
+}
+#anchor
+{
+    margin-left: 7%;
+    margin-bottom:9%;
+}
+#nail
+{
+    margin-left: 12%;
+}
+#sds
+{
+    margin-left: 9%;
+}
+#nickle
+{
+    margin-left: 10%;
+}
+@media only screen and (max-width: 1000px) {
+    .img-margin-14,#anchor, #nail,#sds,#nickle
+    {
+        margin: 0px;
+    }
+    
+    
+   
+}
 @media only screen and (max-width: 700px) {
 .topleft,.supplyleft{
-    height: 300px;
+    /* height: 300px; */
 }
-.topright
+
+.img-margin-14,#anchor, #nail,#sds,#nickle
 {
-    /* margin-top: 10px; */
+    margin: 0px;
 }
 
 .dabba {
