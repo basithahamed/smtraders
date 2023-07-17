@@ -110,6 +110,12 @@ img
 {
     margin-left: 10%;
 }
+.MagicScroll a{
+    display: none;
+}
+.MagicScroll img{
+    height: 200px;
+}
 @media only screen and (max-width: 1000px) {
     .img-margin-14,#anchor, #nail,#sds,#nickle
     {
